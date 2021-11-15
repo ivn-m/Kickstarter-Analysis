@@ -26,7 +26,7 @@ This analysis was performed to understand the relationship between Kickstarter c
 To perform this analysis:
 1.	Created new sheet “Outcomes Based on Goals” with the following columns to hold the data: Goal, Number Successful, Number Failed, Number Canceled, Total Projects, Percentage Successful, Percentage Failed, Percentage Canceled.
 2.	These new rows were tabulated by the following fundraising goal ranges: 
-3.	
+
 ![image](https://user-images.githubusercontent.com/93107507/141716659-0af93e06-7afa-4884-bb9d-456f8b03ecab.png)
 
 3.	Used the =COUNTIFS() function to count the corresponding outcomes per cell:
@@ -43,15 +43,17 @@ A challenge I encountered was making sure the total number of projects equated t
 ## Results
 When not considering a specific year, May had the highest number of successful and canceled campaigns. Coincidentally, both outcomes saw an upward trend starting 2 months prior, and a downward trend which lasted 5 months. The successful outcome in theatre trends follows the same trends in all of the overall trends. This trend may be due to the fact that theatre accounts for 33% of all categories. 
 
-![image](https://user-images.githubusercontent.com/93107507/141716501-99767aec-f533-47bf-b71a-eff1558b3809.png)
-In general, there were more successful campaigns counts than there were campaigns that failed, especially those whose campaign financial goals were less than $!9999. The graph shows an inverse relationship between campaign success and failure. The less expensive a campaign is, the more likely it is to succeed. Conversely. The more expensive a campaign is, the more likely it is to fail.
+![image](https://user-images.githubusercontent.com/93107507/141716841-cf768792-5201-46e5-b84c-2a26ffeedb9b.png)
+![image](https://user-images.githubusercontent.com/93107507/141716851-dd242764-a4b7-4689-9e3a-52a97384bc63.png)
 
+In general, there were more successful campaigns counts than there were campaigns that failed, especially those whose campaign financial goals were less than $19999. The graph shows an inverse relationship between campaign success and failure. The less expensive a campaign is, the more likely it is to succeed. Conversely. The more expensive a campaign is, the more likely it is to fail.
+
+![image](https://user-images.githubusercontent.com/93107507/141716951-0dff3774-1034-415e-b095-40904e7590e4.png)
  
-###Limitations
+### Limitations
+
 While this data can be extrapolated, this data set does not include a season variable. This dataset is also heavily biased towards the theatre parent category, accounting for 33% of the total data in this dataset. While this does not specifically affect this current analysis, an analysis seeking to understand overall outcomes would lose nuance. 
 
-###Other tables and data graphs
+### Other tables and graphs
 
 Other tables we may want to create is one which displays/filters the outcomes based on goals by geography/country—this may help us understand which markets are more likely to have successful fundraising outcomes. Additionally, one that filters outcomes by season—my hypothesis would be that in winter months, people will be less willingly to be out In order to evade the cold.
-	
-![image](https://user-images.githubusercontent.com/93107507/141716515-bb0d58ca-8445-4825-a989-dacdf60a1975.png)
