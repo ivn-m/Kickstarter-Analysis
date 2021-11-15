@@ -26,7 +26,7 @@ This analysis was performed to understand the relationship between Kickstarter c
 To perform this analysis:
 1.	Created new sheet “Outcomes Based on Goals” with the following columns to hold the data: Goal, Number Successful, Number Failed, Number Canceled, Total Projects, Percentage Successful, Percentage Failed, Percentage Canceled.
 2.	These new rows were tabulated by the following fundraising goal ranges: 
-![image](https://user-images.githubusercontent.com/93107507/141716399-83a91c25-77ed-4eab-a6a4-e05cb867e0f4.png)
+![image](https://user-images.githubusercontent.com/93107507/141716659-0af93e06-7afa-4884-bb9d-456f8b03ecab.png)
 3.	Used the =COUNTIFS() function to count the corresponding outcomes per cell:
 a.	i.e.,  =COUNTIFS(Kickstarter!$O:$O,"plays",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,"<=4999") to count the number of plays whose fundraising was successful and had a fundraising goal between $1000 and $4999.
 4.	After each goal had been tabulated per successful, failed, and canceled outcomes, I summed the total count of plays by fundraising goal using the =SUM() function under the Total Projects column.
