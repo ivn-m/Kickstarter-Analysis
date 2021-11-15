@@ -30,11 +30,16 @@ To perform this analysis:
 ![image](https://user-images.githubusercontent.com/93107507/141716659-0af93e06-7afa-4884-bb9d-456f8b03ecab.png)
 
 3.	Used the =COUNTIFS() function to count the corresponding outcomes per cell:
-a.	i.e.,  =COUNTIFS(Kickstarter!$O:$O,"plays",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,"<=4999") to count the number of plays whose fundraising was successful and had a fundraising goal between $1000 and $4999.
-4.	After each goal had been tabulated per successful, failed, and canceled outcomes, I summed the total count of plays by fundraising goal using the =SUM() function under the Total Projects column.
-a.	i.e., There were 169 total plays whose fundraising goal was between $5000 and $9999
-5.	Once the total projects count was estimated, I calculated the percentage of successful, failed, and canceled plays by dividing the outcome count per financial goal range by the total number of projects in the financial goal range.
-a.	i.e, There were 12 plays whose fundraising goals was between $15000 and $19999. These 12 plays were 50% of the total plays whose fundraising goal was between %15000 and $19999.
+
+-i.e.,  =COUNTIFS(Kickstarter!$O:$O,"plays",Kickstarter!$D:$D,">=1000",Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,"<=4999") to count the number of plays whose fundraising was successful and had a fundraising goal between $1000 and $4999.
+
+5.	After each goal had been tabulated per successful, failed, and canceled outcomes, I summed the total count of plays by fundraising goal using the =SUM() function under the Total Projects column.
+
+-i.e., There were 169 total plays whose fundraising goal was between $5000 and $9999
+
+6.	Once the total projects count was estimated, I calculated the percentage of successful, failed, and canceled plays by dividing the outcome count per financial goal range by the total number of projects in the financial goal range.
+
+-i.e, There were 12 plays whose fundraising goals was between $15000 and $19999. These 12 plays were 50% of the total plays whose fundraising goal was between %15000 and $19999.
 
 ### Challenges and Difficulties Encountered
 
